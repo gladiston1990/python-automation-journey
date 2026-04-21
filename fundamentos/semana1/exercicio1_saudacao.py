@@ -2,9 +2,9 @@
 
 #Olá, João! Seja bem-vindo!
 
+#Sujestão da IA colocar um input
 
-nome = "João"
-print(f"Olá, {nome}! Seja bem-vindo!\n")
+nome = input("Digite seu nome: ")
 
 
 
