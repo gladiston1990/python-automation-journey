@@ -3,10 +3,12 @@
 #   peça um número 
 #   mostre: Dobro: X e Triplo: Y
 
+# Entrada de dados pelo usuário
 numero_x = float(input("Digite o valor de X: "))
-numero_y = float(input("Digite o valor de Y: "))
 
+# Calcula o dobro e o triplo do valor de entrada
 dobro = (numero_x * 2)
-triplo = (numero_y * 3)
+triplo = (numero_x * 3)
 
-print(f"O dobro de x é: {dobro} e o Triplo de Y é: {triplo} ")
+
+print(f"O dobro de x é: {dobro} e o Triplo é: {triplo} ")
