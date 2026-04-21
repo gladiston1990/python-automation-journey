@@ -9,9 +9,9 @@
 
 nome = str(input("Diginite o nome do funcionário: "))
 salario = float(input("Digite o atual salário do funcionario: "))
-aumento = int(input("Digite a porcentagem de aumento do salário: "))
+aumento = float(input("Digite a porcentagem de aumento do salário: "))
 
-salario_aumentado = (salario + salario * aumento)
+salario_aumentado = salario + (salario * aumento / 100)
 
 print(f"Funcionário: {nome} \n")
 print(f"Salário Antigo: {salario}\n")
